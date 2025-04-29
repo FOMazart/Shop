@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="flex flex-col lg:flex-row items-start justify-between gap-12">
-        {/* Text Content */}
+        
         <div className="flex-1 max-w-[625px] ml-[104px]">
           <h1 className="text-6xl font-bold mb-12">Our Story</h1>
           <p className="text-2xl text-gray-600 leading-relaxed">
@@ -21,7 +21,7 @@ const About = () => {
           </p>
         </div>
 
-        {/* Image */}
+        
         <div className="flex-1 flex justify-end mr-[-16px]">
           <img 
             src={SideImage} 
@@ -31,7 +31,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Metrics Image */}
+      
       <div className="mt-24 flex justify-center">
         <img 
           src={MonImage}
@@ -40,7 +40,7 @@ const About = () => {
         />
       </div>
 
-      {/* MBA */}
+      
       <div className="flex-1 flex justify-end mr-[-16px]">
           <img 
             src={ManImage} 
